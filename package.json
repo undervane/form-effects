@@ -1,0 +1,36 @@
+{
+  "name": "form-effects",
+  "version": "1.0.0",
+  "description": "An effects approach for your angular forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/core": "^7.2.8",
+    "@angular/common": "^7.2.8",
+    "@angular/forms": "^7.2.8",
+    "rxjs": "^6.0.0"
+  },
+  "peerDependencies": {
+    "@angular/platform-browser": "^7.2.8",
+    "zone.js": "~0.8.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undervane/form-effects.git"
+  },
+  "keywords": [
+    "angular",
+    "formgroup",
+    "reactive",
+    "form",
+    "async"
+  ],
+  "author": "undervane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undervane/form-effects/issues"
+  },
+  "homepage": "https://github.com/undervane/form-effects#readme"
+}
