@@ -2,3 +2,4 @@ node_modules
 example
 yarn.lock
 .DS_Store
+src
