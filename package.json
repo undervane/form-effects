@@ -1,6 +1,6 @@
 {
   "name": "form-effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An effects approach for your angular forms",
   "main": "index.js",
   "scripts": {
