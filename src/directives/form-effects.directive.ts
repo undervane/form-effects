@@ -1,6 +1,6 @@
-import { Directive, Input } from '@angular/core'
-import { FormEffects } from '../model/form-effects.type'
+import { Directive, Input } from '@angular/core';
 import { EffectDispatchInterface } from '../interfaces/effect-dispatch.interface';
+import { FormEffects } from '../model/form-effects.type';
 
 @Directive({
   selector: '[formEffects]'
@@ -26,13 +26,11 @@ export class FormEffectsDirective {
   notify(effectDispatch: EffectDispatchInterface): void {
 
     if (!this.formEffects) {
-      console.error('A FormEffects instance must be provided to update values')
-      return
+      throw new Error('A FormEffects instance must be provided to update values');
     }
 
     if (!effectDispatch) {
-      console.error(`Can't execute update if EffectDispatch is not provided`)
-      return
+      throw new Error(`Can't execute update if EffectDispatch is not provided`);
     }
 
     this.formEffects.update(effectDispatch)
