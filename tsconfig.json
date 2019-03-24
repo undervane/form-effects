@@ -1,6 +1,7 @@
 {
   "include": [
-      "src/**/*"
+      "src/**/*",
+      "index.ts"
   ],
   "exclude": [
       "node_modules",
@@ -10,11 +11,8 @@
   ],
   "compilerOptions": {
       "lib": [
-          "es6"
-      ],
-      "types": [
-          "jasmine",
-          "node"
+          "es6",
+          "dom"
       ],
       "declaration": true,
       "target": "es5",

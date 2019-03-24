@@ -1,7 +1,7 @@
 {
   "name": "form-effects",
-  "version": "1.0.1",
-  "description": "An effects approach for your angular forms",
+  "version": "1.0.5",
+  "description": "Provide your form superpowers by reacting to effects produced by control value changes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

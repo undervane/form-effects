@@ -98,8 +98,7 @@ export class FormEffects implements OnDestroy {
     update(effectDispatch: EffectDispatchInterface): void {
 
         if (!effectDispatch) {
-            console.error('An effect dispatch must be provided to update values')
-            return
+            throw new Error('An effect dispatch must be provided to update values')
         }
 
         effectDispatch.keys.forEach(
