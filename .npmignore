@@ -1,7 +1,0 @@
-node_modules
-example
-tsconfig.json
-.gitignore
-yarn.lock
-.DS_Store
-src
