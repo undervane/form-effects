@@ -1,0 +1,4 @@
+[submodule "projects/form-effects-lib"]
+	path = projects/form-effects-lib
+	url = https://github.com/undervane/form-effects-lib
+	branch = master
