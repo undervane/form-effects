@@ -135,33 +135,33 @@
         }
       }
     },
-    "form-effects": {
-      "root": "projects/form-effects",
-      "sourceRoot": "projects/form-effects/src",
+    "form-effects-lib": {
+      "root": "projects/form-effects-lib",
+      "sourceRoot": "projects/form-effects-lib/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/form-effects/tsconfig.lib.json",
-            "project": "projects/form-effects/ng-package.json"
+            "tsConfig": "projects/form-effects-lib/tsconfig.lib.json",
+            "project": "projects/form-effects-lib/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/form-effects/src/test.ts",
-            "tsConfig": "projects/form-effects/tsconfig.spec.json",
-            "karmaConfig": "projects/form-effects/karma.conf.js"
+            "main": "projects/form-effects-lib/src/test.ts",
+            "tsConfig": "projects/form-effects-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/form-effects-lib/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/form-effects/tsconfig.lib.json",
-              "projects/form-effects/tsconfig.spec.json"
+              "projects/form-effects-lib/tsconfig.lib.json",
+              "projects/form-effects-lib/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
